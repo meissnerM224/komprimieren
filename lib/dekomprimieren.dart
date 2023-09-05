@@ -1,4 +1,4 @@
-var komprimiert = 'a3bbc1452dde';
+var komprimiert = 'kjabwdchcb6n2kq567a';
 
 void main(List<String> args) {
   // xxxxabbccccca
@@ -43,8 +43,7 @@ String decompress(String komprimiert) {
   }
   // print(codeArray);
   for (var i = 0; i < codeArray.length; i++) {
-    result +=
-        decompressOneLetter(kompressedLetter: codeArray[i]); //["a3","bb",...]
+    result += decompressOneLetter(kompressedLetter: codeArray[i]); //["a3","bb",...]
   }
   return result;
 }
